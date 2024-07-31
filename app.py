@@ -1,13 +1,13 @@
 import streamlit as st
 from scrapegraphai.graphs import SmartScraperGraph
 import asyncio
-import platform
+#import platform
 import pandas as pd
 
 #https://github.com/ScrapeGraphAI/Scrapegraph-ai
 
-if platform.system() == "Windows":
-    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
+#if platform.system() == "Windows":
+#    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 st.title("Scrapes To The Loo")
 st.caption("This app allows you to scrape a website using Local AI")
